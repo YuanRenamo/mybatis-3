@@ -7,7 +7,7 @@
 
     <typeAliases>
         <typeAlias alias="Teacher"
-                   type="com.cn.basic.domain.Teacher"/>
+                   type="com.cn.chapter01.domain.Teacher"/>
     </typeAliases>
     <environments default="development">
         <environment id="development">

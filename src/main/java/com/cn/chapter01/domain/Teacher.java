@@ -1,4 +1,4 @@
-package com.cn.basic.domain;
+package com.cn.chapter01.domain;
 
 /**
  * @Classname Teacher

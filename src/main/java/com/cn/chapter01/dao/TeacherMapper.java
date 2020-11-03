@@ -1,6 +1,6 @@
-package com.cn.basic.dao;
+package com.cn.chapter01.dao;
 
-import com.cn.basic.domain.Teacher;
+import com.cn.chapter01.domain.Teacher;
 
 /**
  * @Classname TeacherMapper

@@ -1,7 +1,7 @@
-package com.cn.basic;
+package com.cn.chapter01;
 
-import com.cn.basic.dao.TeacherMapper;
-import com.cn.basic.domain.Teacher;
+import com.cn.chapter01.dao.TeacherMapper;
+import com.cn.chapter01.domain.Teacher;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -11,7 +11,6 @@ import org.junit.Test;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.List;
 
 /**
  * @Classname MyBatisTest
