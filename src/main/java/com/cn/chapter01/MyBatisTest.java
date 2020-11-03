@@ -18,6 +18,14 @@ import java.io.InputStream;
  * @Date 2020/11/3 9:34
  * @Created by Administrator
  */
+
+/**
+ * mybatis源码流程
+ * 1. 创建一个对应接口的代理类 MapperProxy, 调用业务接口的方式实际是调用MapperProxy.invoke方法（这里使用的是JDK的动态代理）
+ * 2. 调用业务接口方法时，实际时调用MapperMethod.execute 方法
+ * 3. 查询最后是调用的 Executor.query方法
+ * 4. 在创建 Executor方法时, 每个插件将 Executor进行包装 （使用Plugin.wrap 进行包装，实际上也是使用JDK动态代理）
+ */
 public class MyBatisTest {
   private SqlSessionFactory sqlSessionFactory;
 
